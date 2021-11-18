@@ -9,3 +9,4 @@ execute as @a[scores={vimiDarkOakSap=1..},nbt={Inventory:[{id:'minecraft:dark_oa
 execute as @a[scores={vimiJungleSap=1..},nbt={Inventory:[{id:'minecraft:jungle_sapling'}]}] run function vimi:clear_seed/jungle_sapling
 execute as @a[scores={vimiOakSap=1..},nbt={Inventory:[{id:'minecraft:oak_sapling'}]}] run function vimi:clear_seed/oak_sapling
 execute as @a[scores={vimiSpruceSap=1..},nbt={Inventory:[{id:'minecraft:spruce_sapling'}]}] run function vimi:clear_seed/spruce_sapling
+execute as @a[scores={vimiAzalea=1..},nbt={Inventory:[{id:'minecraft:azalea'}]}] run function vimi:clear_seed/azalea

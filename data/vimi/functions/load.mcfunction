@@ -140,6 +140,7 @@ scoreboard objectives add vimiDarkOakSap dummy
 scoreboard objectives add vimiJungleSap dummy
 scoreboard objectives add vimiOakSap dummy
 scoreboard objectives add vimiSpruceSap dummy
+scoreboard objectives add vimiAzalea dummy
 
 # 破坏的方块数=需要消耗的饥饿值*200
 scoreboard objectives add vimiDestroyBlock dummy
