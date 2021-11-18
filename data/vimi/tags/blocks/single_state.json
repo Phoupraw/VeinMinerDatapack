@@ -21,11 +21,8 @@
 		"clay",
 		"soul_sand",
 		"cobweb",
-		"nether_wart_block",
-		"warped_wart_block",
 		"shroomlight",
 		"ancient_debris",
-		"soul_soil",
-		"magma_block"
+		"soul_soil"
 	]
 }

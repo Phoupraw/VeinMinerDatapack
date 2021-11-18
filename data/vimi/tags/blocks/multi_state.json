@@ -37,6 +37,8 @@
 		"#lapis_ores",
 		"#iron_ores",
 		"#gold_ores",
-		"#copper_ores"
+		"#copper_ores",
+		"hay_block",
+		"#vimi:fungus_leaves"
 	]
 }

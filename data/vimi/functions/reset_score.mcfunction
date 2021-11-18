@@ -122,4 +122,5 @@ scoreboard players reset * vimiCobweb
 scoreboard players reset * vimiNetherWBlock
 scoreboard players reset * vimiWarpedWBlock
 scoreboard players reset * vimiShroomlight
+scoreboard players reset * vimiHayBlock
 

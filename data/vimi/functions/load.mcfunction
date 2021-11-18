@@ -126,6 +126,7 @@ scoreboard objectives add vimiCobweb mined:cobweb
 scoreboard objectives add vimiNetherWBlock mined:nether_wart_block
 scoreboard objectives add vimiWarpedWBlock mined:warped_wart_block
 scoreboard objectives add vimiShroomlight mined:shroomlight
+scoreboard objectives add vimiHayBlock mined:hay_block
 
 # 种子树苗需求
 scoreboard objectives add vimiBeetrNeed dummy

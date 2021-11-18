@@ -10,3 +10,4 @@ execute if score @s vimiLargeFern matches 1.. run setblock 20000016 1 20000016 l
 execute if score @s vimiNetherWBlock matches 1.. run setblock 20000016 1 20000016 nether_wart_block
 execute if score @s vimiWarpedWBlock matches 1.. run setblock 20000016 1 20000016 warped_wart_block
 execute if score @s vimiShroomlight matches 1.. run setblock 20000016 1 20000016 shroomlight
+execute if score @s vimiHayBlock matches 1.. run setblock 20000016 1 20000016 hay_block
