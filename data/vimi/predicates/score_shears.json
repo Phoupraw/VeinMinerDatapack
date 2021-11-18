@@ -23,7 +23,7 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"item": "shears"
+										"items": ["shears"]
 									}
 								}
 							}
