@@ -27,3 +27,4 @@ execute if score @s vimiRailPow matches 1.. run setblock 20000016 1 20000016 pow
 execute if score @s vimiRailDet matches 1.. run setblock 20000016 1 20000016 detector_rail
 execute if score @s vimiRail matches 1.. run setblock 20000016 1 20000016 rail
 execute if score @s vimiRailAct matches 1.. run setblock 20000016 1 20000016 activator_rail
+

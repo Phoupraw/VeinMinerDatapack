@@ -1,11 +1,11 @@
 {
 	"replace": false,
 	"values": [
-		"coal_ore",
-		"diamond_ore",
-		"emerald_ore",
-		"redstone_ore",
-		"lapis_ore",
+		"#coal_ores",
+		"#diamond_ores",
+		"#emerald_ores",
+		"#redstone_ores",
+		"#lapis_ores",
 		"nether_quartz_ore",
 		"nether_gold_ore"
 	]

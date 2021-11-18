@@ -1,6 +1,5 @@
 execute if block ~ ~ ~ #vimi:mushroom_block if block 20000016 1 20000016 #vimi:mushroom_block run function vimi:multi_state/check_durability
-execute if block ~ ~ ~ redstone_ore if block 20000016 1 20000016 redstone_ore run function vimi:multi_state/check_durability
-execute if block ~ ~ ~ deepslate_redstone_ore if block 20000016 1 20000016 deepslate_redstone_ore run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ #redstone_ores if block 20000016 1 20000016 #redstone_ores run function vimi:multi_state/check_durability
 execute if block ~ ~ ~ snow if block 20000016 1 20000016 snow run function vimi:multi_state/check_durability
 execute if block ~ ~ ~ oak_log if block 20000016 1 20000016 oak_log run function vimi:multi_state/check_durability
 execute if block ~ ~ ~ birch_log if block 20000016 1 20000016 birch_log run function vimi:multi_state/check_durability
@@ -22,3 +21,10 @@ execute if block ~ ~ ~ #vimi:grass if block 20000016 1 20000016 #vimi:grass run 
 execute if block ~ ~ ~ crimson_stem if block 20000016 1 20000016 crimson_stem run function vimi:multi_state/check_durability
 execute if block ~ ~ ~ warped_stem if block 20000016 1 20000016 warped_stem run function vimi:multi_state/check_durability
 execute if block ~ ~ ~ #rails if block 20000016 1 20000016 #rails run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ #coal_ores if block 20000016 1 20000016 #coal_ores run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ #iron_ores if block 20000016 1 20000016 #iron_ores run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ #diamond_ores if block 20000016 1 20000016 #diamond_ores run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ #emerald_ores if block 20000016 1 20000016 #emerald_ores run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ #copper_ores if block 20000016 1 20000016 #copper_ores run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ #gold_ores if block 20000016 1 20000016 #gold_ores run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ #lapis_ores if block 20000016 1 20000016 #lapis_ores run function vimi:multi_state/check_durability

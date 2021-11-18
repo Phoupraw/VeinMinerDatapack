@@ -29,6 +29,14 @@
 		"crimson_stem",
 		"warped_stem",
 		"amethyst_cluster",
-		"#rails"
+		"#rails",
+		"#coal_ores",
+		"#diamond_ores",
+		"#emerald_ores",
+		"#redstone_ores",
+		"#lapis_ores",
+		"#iron_ores",
+		"#gold_ores",
+		"#copper_ores"
 	]
 }
