@@ -1,4 +1,5 @@
 loot insert 20000016 4 20000016 mine ~ ~ ~ mainhand
+# tellraw @a [{"block":"20000016 4 20000016", "nbt":"Items"}]
 execute unless predicate vimi:silk_touch if block ~ ~ ~ #vimi:exp run function vimi:xp
 setblock ~ ~ ~ air
 execute if predicate vimi:score_hoe if block 20000016 1 20000016 #vimi:resow run function vimi:sow/type

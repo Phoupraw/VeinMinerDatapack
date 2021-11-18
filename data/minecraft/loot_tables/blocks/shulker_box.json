@@ -2,21 +2,21 @@
 	"type": "minecraft:block",
 	"pools": [
 		{
-			"rolls": 1,
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
 			"entries": [
 				{
-					"type": "minecraft:alternatives",
+					"type": "alternatives",
 					"children": [
 						{
-							"type": "minecraft:dynamic",
+							"type": "dynamic",
 							"name": "minecraft:contents",
 							"conditions": [
-								{
-									"condition": "minecraft:match_tool",
-									"predicate": {
-										"nbt":"{isShulkerMarker:1b}"
-									}
+							{
+								"condition": "match_tool","predicate": {
+									"nbt": "{isShulkerMarker:1b}"
 								}
+							}
 							]
 						},
 						{
@@ -49,6 +49,7 @@
 								},
 								{
 									"function": "minecraft:set_contents",
+									"type": "minecraft:shulker_box",
 									"entries": [
 										{
 											"type": "minecraft:dynamic",

@@ -36,7 +36,7 @@ execute if predicate vimi:score_grass unless predicate vimi:score_shears run sco
 scoreboard players set max_count vimiTemp 1728
 
 # 挼影盒
-fill 20000016 3 20000016 20000016 4 20000016 stone
+fill 20000016 3 20000016 20000016 4 20000016 bedrock
 fill 20000016 3 20000016 20000016 4 20000016 shulker_box
 
 # 探测物品位置，选择方块种类，连锁
