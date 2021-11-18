@@ -1,0 +1,45 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiAxeN": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiHoeN": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiPickN": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiSpadeN": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,330 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiMelon": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiPumpkin": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiBeetroots": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiWheat": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiPotato": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiCarrot": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiWart": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+
+{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiCoal": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiLapis": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiIron": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiGold": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiRedstone": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiDiamond": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiEmerald": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiQuartz": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+
+{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiSand": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiRedSand": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiGravel": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiClay": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiSoulSand": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiIce": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiPackedIce": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiBlueIce": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiGlowstone": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiObsidian": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiCobweb": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        }
+        
+        
+        ,
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiNGold": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiDebris": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiSoulSoil": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiNetherWBlock": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiWarpedWBlock": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiShroomlight": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        }
+    ]
+}

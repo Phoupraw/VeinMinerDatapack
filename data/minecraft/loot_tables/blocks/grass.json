@@ -1,0 +1,63 @@
+{
+	"type": "block",
+	"pools": [
+		{
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "alternatives",
+					"children": [
+						{
+							"type": "item",
+							"conditions": [
+								{
+									"condition": "match_tool",
+									"predicate": {
+										"items": [
+											"shears"
+										]
+									}
+								}
+							],
+							"name": "grass"
+						},
+						{
+							"type": "item",
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.125
+								}
+							],
+							"functions": [
+								{
+									"function": "apply_bonus",
+									"enchantment": "fortune",
+									"formula": "uniform_bonus_count",
+									"parameters": {
+										"bonusMultiplier": 2
+									}
+								},
+								{
+									"function": "explosion_decay"
+								}
+							],
+							"name": "wheat_seeds"
+						},
+						{
+							"type": "item",
+							"name": "stone_button",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{vimiMarker:1b}"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

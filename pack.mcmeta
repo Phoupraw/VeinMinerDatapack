@@ -1,0 +1,19 @@
+﻿{
+	"pack": {
+		"pack_format": 7,
+		"description": [
+			{
+				"text":"连锁矿工 Vein Miner",
+				"color":"#FFCCFF"
+			},
+			{
+				"text":"\nV1.2.0",
+				"color":"white"
+			},
+			{
+				"text":"\nby Ph-苯",
+				"color":"#66CCFF"
+			}
+		]
+	}
+}

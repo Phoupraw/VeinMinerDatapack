@@ -1,0 +1,25 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "vimi:score_axe"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "vimi:score_hoe"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "vimi:score_pickaxe"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "vimi:score_shears"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "vimi:score_shovel"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:mushroom_stem"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:match_tool",
+					"predicate": {
+						"enchantments": [
+							{
+								"enchantment": "minecraft:silk_touch",
+								"levels": {
+									"min": 1
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:stone_button",
+					"conditions": [
+						{
+							"condition": "inverted",
+							"term": {
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1
+											}
+										}
+									]
+								}
+							}
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{vimiMarker:1b}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

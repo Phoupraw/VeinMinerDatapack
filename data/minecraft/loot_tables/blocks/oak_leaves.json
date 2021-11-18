@@ -1,0 +1,202 @@
+{
+	"type": "block",
+	"pools": [
+		{
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "alternatives",
+					"children": [
+						{
+							"type": "item",
+							"conditions": [
+								{
+									"condition": "alternative",
+									"terms": [
+										{
+											"condition": "match_tool",
+											"predicate": {
+												"items": [
+													"shears"
+												]
+											}
+										},
+										{
+											"condition": "match_tool",
+											"predicate": {
+												"enchantments": [
+													{
+														"enchantment": "silk_touch",
+														"levels": {
+															"min": 1
+														}
+													}
+												]
+											}
+										}
+									]
+								}
+							],
+							"name": "oak_leaves"
+						},
+						{
+							"type": "item",
+							"conditions": [
+								{
+									"condition": "survives_explosion"
+								},
+								{
+									"condition": "table_bonus",
+									"enchantment": "fortune",
+									"chances": [
+										0.05,
+										0.0625,
+										0.083333336,
+										0.1
+									]
+								}
+							],
+							"name": "oak_sapling"
+						},
+						{
+							"type": "item",
+							"name": "stone_button",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{vimiMarker:1b}"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "item",
+					"conditions": [
+						{
+							"condition": "table_bonus",
+							"enchantment": "fortune",
+							"chances": [
+								0.02,
+								0.022222223,
+								0.025,
+								0.033333335,
+								0.1
+							]
+						}
+					],
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"type": "uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						},
+						{
+							"function": "explosion_decay"
+						}
+					],
+					"name": "stick"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "inverted",
+					"term": {
+						"condition": "alternative",
+						"terms": [
+							{
+								"condition": "match_tool",
+								"predicate": {
+									"items": [
+										"shears"
+									]
+								}
+							},
+							{
+								"condition": "match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "silk_touch",
+											"levels": {
+												"min": 1
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "item",
+					"conditions": [
+						{
+							"condition": "survives_explosion"
+						},
+						{
+							"condition": "table_bonus",
+							"enchantment": "fortune",
+							"chances": [
+								0.005,
+								0.0055555557,
+								0.00625,
+								0.008333334,
+								0.025
+							]
+						}
+					],
+					"name": "apple"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "inverted",
+					"term": {
+						"condition": "alternative",
+						"terms": [
+							{
+								"condition": "match_tool",
+								"predicate": {
+									"items": [
+										"shears"
+									]
+								}
+							},
+							{
+								"condition": "match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "silk_touch",
+											"levels": {
+												"min": 1
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	]
+}

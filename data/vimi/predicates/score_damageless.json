@@ -1,0 +1,65 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiBeetroots": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiWheat": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiPotato": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiCarrot": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiWart": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        },
+		{
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiSugarCane": {
+                    "min": 1,
+					"max":2147483647
+                }
+            }
+        }
+    ]
+}

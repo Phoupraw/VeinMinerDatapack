@@ -1,0 +1,24 @@
+execute if block ~ ~ ~ #vimi:mushroom_block if block 20000016 1 20000016 #vimi:mushroom_block run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ redstone_ore if block 20000016 1 20000016 redstone_ore run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ deepslate_redstone_ore if block 20000016 1 20000016 deepslate_redstone_ore run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ snow if block 20000016 1 20000016 snow run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ oak_log if block 20000016 1 20000016 oak_log run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ birch_log if block 20000016 1 20000016 birch_log run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ spruce_log if block 20000016 1 20000016 spruce_log run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ dark_oak_log if block 20000016 1 20000016 dark_oak_log run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ jungle_log if block 20000016 1 20000016 jungle_log run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ acacia_log if block 20000016 1 20000016 acacia_log run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ oak_leaves if block 20000016 1 20000016 oak_leaves run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ birch_leaves if block 20000016 1 20000016 birch_leaves run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ spruce_leaves if block 20000016 1 20000016 spruce_leaves run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ dark_oak_leaves if block 20000016 1 20000016 dark_oak_leaves run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ jungle_leaves if block 20000016 1 20000016 jungle_leaves run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ acacia_leaves if block 20000016 1 20000016 acacia_leaves run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ snow if block 20000016 1 20000016 snow run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ vine if block 20000016 1 20000016 vine run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ glow_lichen if block 20000016 1 20000016 glow_lichen run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ sugar_cane if block 20000016 1 20000016 sugar_cane if block ~ ~-1 ~ sugar_cane run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ #vimi:grass if block 20000016 1 20000016 #vimi:grass run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ crimson_stem if block 20000016 1 20000016 crimson_stem run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ warped_stem if block 20000016 1 20000016 warped_stem run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ #rails if block 20000016 1 20000016 #rails run function vimi:multi_state/check_durability

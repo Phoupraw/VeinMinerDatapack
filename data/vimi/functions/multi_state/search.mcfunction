@@ -1,0 +1,29 @@
+# say search
+# execute if entity @s[distance=..64] if block 20000016 1 20000016 air run say air3
+
+execute positioned ~-1 ~-1 ~-1 if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~-1 ~-1 ~ if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~-1 ~-1 ~1 if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~-1 ~ ~-1 if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~-1 ~ ~ if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~-1 ~ ~1 if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~-1 ~1 ~-1 if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~-1 ~1 ~ if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~-1 ~1 ~1 if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~ ~-1 ~-1 if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~ ~-1 ~ if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~ ~-1 ~1 if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~ ~ ~-1 if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~ ~ ~1 if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~ ~1 ~-1 if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~ ~1 ~ if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~ ~1 ~1 if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~1 ~-1 ~-1 if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~1 ~-1 ~ if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~1 ~-1 ~1 if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~1 ~ ~-1 if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~1 ~ ~ if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~1 ~ ~1 if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~1 ~1 ~-1 if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~1 ~1 ~ if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block
+execute positioned ~1 ~1 ~1 if entity @s[distance=..64] if block ~ ~ ~ #vimi:multi_state run function vimi:multi_state/check_block

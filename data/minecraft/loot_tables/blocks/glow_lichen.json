@@ -1,0 +1,134 @@
+{
+	"type": "block",
+	"pools": [
+		{
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "alternatives",
+					"children": [
+						{
+							"type": "item",
+							"conditions": [
+								{
+									"condition": "match_tool",
+									"predicate": {
+										"items": [
+											"shears"
+										]
+									}
+								}
+							],
+							"functions": [
+								{
+									"function": "set_count",
+									"conditions": [
+										{
+											"condition": "block_state_property",
+											"block": "glow_lichen",
+											"properties": {
+												"east": "true"
+											}
+										}
+									],
+									"count": 1.0,
+									"add": true
+								},
+								{
+									"function": "set_count",
+									"conditions": [
+										{
+											"condition": "block_state_property",
+											"block": "glow_lichen",
+											"properties": {
+												"west": "true"
+											}
+										}
+									],
+									"count": 1.0,
+									"add": true
+								},
+								{
+									"function": "set_count",
+									"conditions": [
+										{
+											"condition": "block_state_property",
+											"block": "glow_lichen",
+											"properties": {
+												"north": "true"
+											}
+										}
+									],
+									"count": 1.0,
+									"add": true
+								},
+								{
+									"function": "set_count",
+									"conditions": [
+										{
+											"condition": "block_state_property",
+											"block": "glow_lichen",
+											"properties": {
+												"south": "true"
+											}
+										}
+									],
+									"count": 1.0,
+									"add": true
+								},
+								{
+									"function": "set_count",
+									"conditions": [
+										{
+											"condition": "block_state_property",
+											"block": "glow_lichen",
+											"properties": {
+												"up": "true"
+											}
+										}
+									],
+									"count": 1.0,
+									"add": true
+								},
+								{
+									"function": "set_count",
+									"conditions": [
+										{
+											"condition": "block_state_property",
+											"block": "glow_lichen",
+											"properties": {
+												"down": "true"
+											}
+										}
+									],
+									"count": 1.0,
+									"add": true
+								},
+								{
+									"function": "set_count",
+									"count": -1.0,
+									"add": true
+								},
+								{
+									"function": "explosion_decay"
+								}
+							],
+							"name": "glow_lichen"
+						},
+						{
+							"type": "item",
+							"name": "stone_button",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{vimiMarker:1b}"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

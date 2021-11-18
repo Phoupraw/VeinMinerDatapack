@@ -1,0 +1,45 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiGrass": {
+                    "min": 1,
+                    "max":2147483647
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiTallGrass": {
+                    "min": 1,
+                    "max":2147483647
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiFern": {
+                    "min": 1,
+                    "max":2147483647
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vimiLargeFern": {
+                    "min": 1,
+                    "max":2147483647
+                }
+            }
+        }
+    ]
+}   
