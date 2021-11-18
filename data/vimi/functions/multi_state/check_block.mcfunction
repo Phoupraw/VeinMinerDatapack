@@ -28,3 +28,4 @@ execute if block ~ ~ ~ #emerald_ores if block 20000016 1 20000016 #emerald_ores 
 execute if block ~ ~ ~ #copper_ores if block 20000016 1 20000016 #copper_ores run function vimi:multi_state/check_durability
 execute if block ~ ~ ~ #gold_ores if block 20000016 1 20000016 #gold_ores run function vimi:multi_state/check_durability
 execute if block ~ ~ ~ #lapis_ores if block 20000016 1 20000016 #lapis_ores run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ amethyst_cluster if block 20000016 1 20000016 amethyst_cluster run function vimi:multi_state/check_durability

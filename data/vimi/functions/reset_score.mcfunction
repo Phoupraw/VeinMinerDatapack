@@ -67,6 +67,7 @@ scoreboard players reset * vimiDEmerald
 scoreboard players reset * vimiQuartz
 scoreboard players reset * vimiDebris
 scoreboard players reset * vimiAmethyst
+scoreboard players reset * vimiMagma
 
 # 沙土质
 scoreboard players reset * vimiSand

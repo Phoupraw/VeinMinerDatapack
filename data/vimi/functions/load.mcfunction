@@ -71,6 +71,7 @@ scoreboard objectives add vimiDEmerald mined:deepslate_emerald_ore
 scoreboard objectives add vimiQuartz mined:nether_quartz_ore
 scoreboard objectives add vimiDebris mined:ancient_debris
 scoreboard objectives add vimiAmethyst mined:amethyst_cluster
+scoreboard objectives add vimiMagma mined:magma_block
 
 # 沙土质
 scoreboard objectives add vimiSand mined:sand
