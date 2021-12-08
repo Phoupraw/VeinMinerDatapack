@@ -1,5 +1,5 @@
 {
-	"type": "minecraft:block",
+	"type": "block",
 	"pools": [
 		{
 			"rolls": 1.0,
@@ -10,24 +10,24 @@
 					"children": [
 						{
 							"type": "dynamic",
-							"name": "minecraft:contents",
+							"name": "contents",
 							"conditions": [
 							{
 								"condition": "match_tool","predicate": {
-									"nbt": "{isShulkerMarker:1b}"
+									"nbt": "{drop_content:1b}"
 								}
 							}
 							]
 						},
 						{
-							"type": "minecraft:item",
+							"type": "item",
 							"functions": [
 								{
-									"function": "minecraft:copy_name",
+									"function": "copy_name",
 									"source": "block_entity"
 								},
 								{
-									"function": "minecraft:copy_nbt",
+									"function": "copy_nbt",
 									"source": "block_entity",
 									"ops": [
 										{
@@ -48,17 +48,17 @@
 									]
 								},
 								{
-									"function": "minecraft:set_contents",
-									"type": "minecraft:shulker_box",
+									"function": "set_contents",
+									"type": "shulker_box",
 									"entries": [
 										{
-											"type": "minecraft:dynamic",
-											"name": "minecraft:contents"
+											"type": "dynamic",
+											"name": "contents"
 										}
 									]
 								}
 							],
-							"name": "minecraft:shulker_box"
+							"name": "light_blue_shulker_box"
 						}
 					]
 				}

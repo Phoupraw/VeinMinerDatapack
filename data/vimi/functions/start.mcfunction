@@ -37,7 +37,7 @@ scoreboard players set max_count vimiTemp 1728
 
 # 挼影盒
 fill 20000016 3 20000016 20000016 4 20000016 bedrock
-fill 20000016 3 20000016 20000016 4 20000016 shulker_box
+fill 20000016 3 20000016 20000016 4 20000016 light_blue_shulker_box
 
 # 探测物品位置，选择方块种类，连锁
 execute anchored eyes positioned ^ ^ ^ at @e[type=item,nbt={Age:0s,PickupDelay:10s},distance=..6,sort=nearest,limit=1] run function vimi:block_type
