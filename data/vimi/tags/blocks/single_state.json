@@ -24,6 +24,10 @@
 		"shroomlight",
 		"ancient_debris",
 		"soul_soil",
-		"magma_block"
+		"magma_block",
+		{
+			"id": "mud",
+			"required": false
+		}
 	]
 }

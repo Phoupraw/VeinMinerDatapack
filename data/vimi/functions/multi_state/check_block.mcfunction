@@ -26,8 +26,9 @@ execute if block ~ ~ ~ #iron_ores if block 20000016 1 20000016 #iron_ores run fu
 execute if block ~ ~ ~ #diamond_ores if block 20000016 1 20000016 #diamond_ores run function vimi:multi_state/check_durability
 execute if block ~ ~ ~ #emerald_ores if block 20000016 1 20000016 #emerald_ores run function vimi:multi_state/check_durability
 execute if block ~ ~ ~ #copper_ores if block 20000016 1 20000016 #copper_ores run function vimi:multi_state/check_durability
-execute if block ~ ~ ~ #gold_ores if block 20000016 1 20000016 #gold_ores run function vimi:multi_state/check_durability
+execute if block ~ ~ ~ #vimi:overworld_gold_ores if block 20000016 1 20000016 #vimi:overworld_gold_ores run function vimi:multi_state/check_durability
 execute if block ~ ~ ~ #lapis_ores if block 20000016 1 20000016 #lapis_ores run function vimi:multi_state/check_durability
 execute if block ~ ~ ~ amethyst_cluster if block 20000016 1 20000016 amethyst_cluster run function vimi:multi_state/check_durability
 execute if block ~ ~ ~ hay_block if block 20000016 1 20000016 hay_block run function vimi:multi_state/check_durability
 execute if block ~ ~ ~ #vimi:fungus_leaves if block 20000016 1 20000016 #vimi:fungus_leaves run function vimi:multi_state/check_durability
+function vimi:multi_state/check_block_1_19

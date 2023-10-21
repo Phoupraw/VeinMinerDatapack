@@ -8,7 +8,7 @@ scoreboard players operation rest_damage vimiTemp %= unbreaking vimiTemp
 execute if score rest_damage vimiTemp matches 1.. run function vimi:unbreaking
 
 # 
-summon armor_stand ~ ~ ~ {Invisible:1b, Marker:1b, Tags:['tag_001']}
+summon armor_stand ~ ~ ~ {Invisible:1b, Marker:1b, Tags:["tag_001"]}
 item replace entity @e[type=armor_stand,tag=tag_001,limit=1] weapon.mainhand from entity @s weapon.mainhand
 execute store result entity @e[type=armor_stand,tag=tag_001,limit=1] HandItems[0].tag.Damage int 1 run scoreboard players get damage vimiTemp
 item replace entity @s weapon.mainhand from entity @e[type=armor_stand,tag=tag_001,limit=1] weapon.mainhand

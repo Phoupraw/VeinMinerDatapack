@@ -77,6 +77,7 @@ scoreboard players reset * vimiClay
 scoreboard players reset * vimiSoulSand
 scoreboard players reset * vimiSnow
 scoreboard players reset * vimiSoulSoil
+scoreboard players reset * vimi_mud
 
 # 原木
 scoreboard players reset * vimiOakLog
@@ -87,6 +88,7 @@ scoreboard players reset * vimiJungleLog
 scoreboard players reset * vimiAcaciaLog
 scoreboard players reset * vimiCrimsonStem
 scoreboard players reset * vimiWarpedStem
+scoreboard players reset * vimi_mangrove_log
 
 # 树叶
 scoreboard players reset * vimiOakLeaf
@@ -95,6 +97,7 @@ scoreboard players reset * vimiSpruceLeaf
 scoreboard players reset * vimiDarkOakLeaf
 scoreboard players reset * vimiJungleLeaf
 scoreboard players reset * vimiAcaciaLeaf
+scoreboard players reset * vimi_mangrove_leaves
 
 # 冰
 scoreboard players reset * vimiIce
@@ -123,4 +126,5 @@ scoreboard players reset * vimiNetherWBlock
 scoreboard players reset * vimiWarpedWBlock
 scoreboard players reset * vimiShroomlight
 scoreboard players reset * vimiHayBlock
+scoreboard players reset * vimi_mangrove_roots
 

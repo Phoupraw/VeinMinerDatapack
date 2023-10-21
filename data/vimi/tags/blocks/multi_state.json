@@ -1,11 +1,7 @@
 {
 	"replace": false,
 	"values": [
-		"mushroom_stem",
-		"brown_mushroom_block",
-		"red_mushroom_block",
-		"redstone_ore",
-		"deepslate_redstone_ore",
+		"#vimi:mushroom_block",
 		"oak_log",
 		"birch_log",
 		"spruce_log",
@@ -36,9 +32,22 @@
 		"#redstone_ores",
 		"#lapis_ores",
 		"#iron_ores",
-		"#gold_ores",
+		"gold_ore",
+		"#vimi:overworld_gold_ores",
 		"#copper_ores",
 		"hay_block",
-		"#vimi:fungus_leaves"
+		"#vimi:fungus_leaves",
+		{
+			"id": "mangrove_log",
+			"required": false
+		},
+		{
+			"id": "mangrove_leaves",
+			"required": false
+		},
+		{
+			"id": "mangrove_roots",
+			"required": false
+		}
 	]
 }

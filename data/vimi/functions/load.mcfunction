@@ -159,6 +159,7 @@ scoreboard objectives add vimiOpenVein dummy "个人总开关"
 scoreboard objectives add vimiAutoSow dummy "是否自动补种"
 scoreboard objectives add vimiShowBlocks dummy "是否显示破坏的方块数"
 scoreboard objectives add vimiShowDura dummy "是否显示消耗的耐久"
+scoreboard objectives add vimi_init trigger "是否已初始化设置"
 
 # 常量
 scoreboard players set 10 vimiTemp 10
@@ -175,3 +176,5 @@ gamerule maxCommandChainLength 2147483647
 schedule function vimi:food 1s replace
 schedule function vimi:load_check 60s replace
 schedule function vimi:greet_player 1s replace
+
+function vimi:scorebaord_1_19

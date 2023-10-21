@@ -9,7 +9,7 @@ execute if entity @s[predicate=vimi:score_netherite] run scoreboard players set 
 
 # 初始化耐久附魔
 scoreboard players set unbreaking vimiTemp 0
-execute store result score unbreaking vimiTemp run data get entity @s SelectedItem.tag.Enchantments[{id:'minecraft:unbreaking'}].lvl
+execute store result score unbreaking vimiTemp run data get entity @s SelectedItem.tag.Enchantments[{id:"minecraft:unbreaking"}].lvl
 scoreboard players add unbreaking vimiTemp 1
 
 # 初始化耐久处理
@@ -50,7 +50,7 @@ execute if score @s vimiExp matches 10.. run function vimi:exp
 
 # 清除临时方块
 fill 20000016 0 20000016 20000016 4 20000016 bedrock
-setblock 20000016 1 20000016 furnace{Lock:'vimiTech'}
+setblock 20000016 1 20000016 furnace{Lock:"vimiTech"}
 
 # 显示数据
 execute if score @s vimiShowBlocks matches 1 run title @s title [{"text": "本次连锁了"},{"score": {"name":"count_of_block","objective": "vimiTemp"}},{"text": "个方块"}]

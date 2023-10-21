@@ -7,5 +7,5 @@ scoreboard players set @s vimiOpenVein 1
 scoreboard players set @s vimiAutoSow 1
 scoreboard players set @s vimiShowBlocks 1
 scoreboard players set @s vimiShowDura 1
-tag @s add vimi_init_1
+scoreboard players set @s vimi_init 1
 

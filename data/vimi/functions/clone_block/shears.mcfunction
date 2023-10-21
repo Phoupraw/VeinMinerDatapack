@@ -11,3 +11,4 @@ execute if score @s vimiGrass matches 1.. run setblock 20000016 1 20000016 grass
 execute if score @s vimiTallGrass matches 1.. run setblock 20000016 1 20000016 tall_grass
 execute if score @s vimiFern matches 1.. run setblock 20000016 1 20000016 fern
 execute if score @s vimiLargeFern matches 1.. run setblock 20000016 1 20000016 large_fern
+function vimi:clone_block/shears_1_19

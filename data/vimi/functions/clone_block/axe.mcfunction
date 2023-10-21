@@ -28,3 +28,4 @@ execute if score @s vimiLargeFern matches 1.. run setblock 20000016 1 20000016 l
 execute if score @s vimiCrimsonStem matches 1.. run setblock 20000016 1 20000016 crimson_stem
 execute if score @s vimiWarpedStem matches 1.. run setblock 20000016 1 20000016 warped_stem
 execute if score @s vimiGlowLichen matches 1.. run setblock 20000016 1 20000016 glow_lichen
+function vimi:clone_block/axe_1_19
