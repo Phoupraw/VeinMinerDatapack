@@ -12,7 +12,7 @@
 							"type": "item",
 							"conditions": [
 								{
-									"condition": "alternative",
+									"condition": "any_of",
 									"terms": [
 										{
 											"condition": "match_tool",
@@ -113,7 +113,7 @@
 				{
 					"condition": "inverted",
 					"term": {
-						"condition": "alternative",
+						"condition": "any_of",
 						"terms": [
 							{
 								"condition": "match_tool",
@@ -170,7 +170,7 @@
 				{
 					"condition": "inverted",
 					"term": {
-						"condition": "alternative",
+						"condition": "any_of",
 						"terms": [
 							{
 								"condition": "match_tool",

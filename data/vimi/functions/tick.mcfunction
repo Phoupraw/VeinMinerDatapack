@@ -9,7 +9,7 @@ function vimi:reset_score
 function vimi:clear_seed/type
 
 # 快速落叶
-## 物品
+# 物品
 tag @e[type=item,nbt=!{Item:{tag:{vimiMarker:1b}}},tag=!vimi.decay.0] add vimi.decay.0
 execute as @e[type=item,tag=!vimi.decay.0] at @s run function vimi:decay/search
 
